@@ -1,0 +1,17 @@
+body {
+    background:  #808080;
+    font-family: sans-serif;
+}
+div{
+    padding: 20px 10px;
+    border-radius: 10px;
+    /* border-color: 1px solid black; */
+    margin: 30px 100px 30px 100px;
+    background-color: white;
+
+}
+button{
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px;
+}

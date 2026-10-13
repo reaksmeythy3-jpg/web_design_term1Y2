@@ -1,0 +1,12 @@
+/* TODO */
+button{
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border:3px solid green ;
+}
+button:hover {
+    color: black;
+    background-color: pink;
+    border: 1px solid blue;
+}

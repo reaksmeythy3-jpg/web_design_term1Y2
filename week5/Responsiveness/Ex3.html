@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex3</title>
+    <style>
+        .container {
+            display : grid;
+            grid-template-columns: 1fr ;
+            gap: 10px;
+            padding: 20px;
+        }
+        header,footer {
+            display: grid;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 5px 20px;
+        }
+        .left, .right {
+            padding: 10px;
+            background-color: lightgray;
+        }
+        @media (max-width:900px){
+            main{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Responsive header</header>
+        <main>
+            <div class="left">Main Content</div>
+            <div class="right">Sidebar</div>
+        </main>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

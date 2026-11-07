@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex2</title>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        .container {
+        padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          background-color: black ;
+          color: white;
+        }
+        .left {
+            font-size: 40px;
+        }
+        .right {
+            display: flex;
+            
+        }
+        .right li {
+            list-style: none;
+            margin: 0 10px;
+        
+        }
+        .right ul {
+            display: flex;
+        }
+        .icon {
+            display: none;
+            font-size: 40px;
+        }
+        @media (max-width:768px){
+            .right ul {
+                display:none;
+                
+            }
+            .icon {
+                display: block;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">Logo</div>
+        <div class="right">
+            <div class="item">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+                <i class="fa-solid fa-bars icon"></i>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
